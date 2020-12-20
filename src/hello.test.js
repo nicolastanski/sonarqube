@@ -1,6 +1,5 @@
 const hello = require('./hello')
 
-
 test('it should return a message', () => {
     expect(hello.world()).toBe('Hello Dev FullCycle!')
 })
