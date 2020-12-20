@@ -1,3 +1,3 @@
 const hello = require('./hello')
 
-console.log(hello.index());
+console.log(hello.world());

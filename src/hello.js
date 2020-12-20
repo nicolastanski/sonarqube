@@ -1,5 +1,13 @@
 module.exports = {
-    index() {
+    world() {
         return 'Hello Dev FullCycle!'
+    },
+
+    sum(a, b) {
+        return a + b
+    },
+
+    sub(a, b) {
+        return a - b
     }
 }
