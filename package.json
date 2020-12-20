@@ -1,0 +1,16 @@
+{
+  "name": "sonarqube",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "jest": {
+    "testResultsProcessor": "jest-sonar-reporter"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "jest-sonar-reporter": "^2.0.0"
+  }
+}
